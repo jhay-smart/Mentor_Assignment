@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="header-links">
+        <a href="https://mail.google.com/" target="_blank">Gmail</a>
+        <a
+          href="https://www.google.com/imghp?hl=en&tab=ri&authuser=0&ogbl"
+          target="_blank"
+          >Images</a
+        >
+        <div class="apps-menu">
+          <button class="apps-icon" onclick="toggleDropdown()">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </button>
+          <div class="apps-dropdown" id="appsDropdown">
+            <div class="app-item">
+              <a href="https://myaccount.google.com/" target="_blank">
+                <i class="material-icons">account_circle</i>
+                <span>Account</span>
+              </a>
+            </div>
+            <div class="app-item">
+              <a href="https://www.google.com/" target="_blank">
+                <i class="material-icons">search</i>
+                <span>Google Search</span>
+              </a>
+            </div>
+            <div class="app-item">
+              <a href="https://mail.google.com/" target="_blank">
+                <i class="material-icons">email</i>
+                <span>Gmail</span>
+              </a>
+            </div>
+            <div class="app-item">
+              <a href="https://meet.google.com/" target="_blank">
+                <i class="material-icons">videocam</i>
+                <span>Meet</span>
+              </a>
+            </div>
+            <div class="app-item">
+              <a href="https://maps.google.com/" target="_blank">
+                <i class="material-icons">map</i>
+                <span>Maps</span>
+              </a>
+            </div>
+            <div class="app-item">
+              <a href="https://chat.google.com/" target="_blank">
+                <i class="material-icons">chat</i>
+                <span>Chat</span>
+              </a>
+            </div>
+            <div class="app-item">
+              <a href="https://www.youtube.com/" target="_blank">
+                <i class="material-icons">play_circle</i>
+                <span>YouTube</span>
+              </a>
+            </div>
+            <div class="app-item">
+              <a href="https://contacts.google.com/" target="_blank">
+                <i class="material-icons">contacts</i>
+                <span>Contacts</span>
+              </a>
+            </div>
+            <div class="app-item">
+              <a href="https://play.google.com/" target="_blank">
+                <i class="material-icons">games</i>
+                <span>Play</span>
+              </a>
+            </div>
+            <div class="app-item">
+              <a href="https://calendar.google.com/" target="_blank">
+                <i class="material-icons">calendar_today</i>
+                <span>Calendar</span>
+              </a>
+            </div>
+            <div class="app-item">
+              <a href="https://news.google.com/" target="_blank">
+                <i class="material-icons">article</i>
+                <span>News</span>
+              </a>
+            </div>
+            <div class="app-item">
+              <a href="https://translate.google.com/" target="_blank">
+                <i class="material-icons">translate</i>
+                <span>Translate</span>
+              </a>
+            </div>
+            <div class="app-item">
+              <a href="https://photos.google.com/" target="_blank">
+                <i class="material-icons">photo</i>
+                <span>Photos</span>
+              </a>
+            </div>
+            <div class="app-item">
+              <a href="https://adssettings.google.com/" target="_blank">
+                <i class="material-icons">settings</i>
+                <span>My Ad Center</span>
+              </a>
+            </div>
+            <div class="app-item">
+              <a href="https://shopping.google.com/" target="_blank">
+                <i class="material-icons">shopping_cart</i>
+                <span>Shopping</span>
+              </a>
+            </div>
+            <div class="app-item">
+              <a href="https://www.google.com/search?q=gemini" target="_blank">
+                <i class="material-icons">star</i>
+                <span>Gemini</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="avatar">
+          <i class="fas fa-user"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <!-- Logo -->
+      <div class="logo">
+        <img
+          src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+          alt="Google Logo"
+        />
+      </div>
+
+      <!-- Search Bar -->
+      <div class="search-bar">
+        <form action="https://www.google.com/search" method="get">
+          <input
+            type="text"
+            name="q"
+            placeholder="Search Google or type a URL"
+            class="search-input"
+          />
+          <div class="buttons">
+            <button type="submit" class="search-btn">Google Search</button>
+            <button type="button" class="search-btn">I'm Feeling Lucky</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer Links -->
+    <footer>
+      <div class="footer-links">
+        <a href="#">About</a>
+        <a href="#">Advertising</a>
+        <a href="#">Business</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+      </div>
+    </footer>
+  </body>
+</html>

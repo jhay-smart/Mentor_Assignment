@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  .search-input {
+    width: 60%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+  }
+  
+  .search-btn {
+    background-color: #4285F4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .results-info {
+    margin: 20px;
+    color: #606060;
+    font-size: 0.9rem;
+  }
+  
+  .search-result {
+    background-color: #fff;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-result a {
+    font-size: 1.1rem;
+    color: #1a0dab;
+    text-decoration: none;
+  }
+  
+  .search-result a:hover {
+    text-decoration: underline;
+  }
+  
+  .url {
+    color: #006621;
+    font-size: 0.9rem;
+    margin: 5px 0;
+  }
+  
+  .description {
+    color: #606060;
+    font-size: 0.9rem;
+  }
+  
+  .people-also-ask {
+    margin: 20px;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .people-also-ask h4 {
+    margin-bottom: 10px;
+  }
+  
+  .people-also-ask ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .people-also-ask li {
+    margin: 5px 0;
+    color: #1a0dab;
+    cursor: pointer;
+  }
+  
